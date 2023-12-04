@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    z-index: 1;
+    position: sticky;
+    top: 30px;
+    background-color: white;
+
+    &__nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__logoBlock {
+        a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 900;
+        }
+    }
+
+    &__nav-menu {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__menu-link {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    &__link-active {
+        a {
+            color: gray;
+        }
+    }
+
+    &__burger {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        display: none;
+    }
+
+    &__burger-stick {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+    }
+}
