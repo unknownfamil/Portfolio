@@ -17,6 +17,25 @@ menuLinks.forEach((el) => {
     });
 });
 
+const btn = document.getElementById('button');
 
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.textContent = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_e8vlpjt';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.textContent = 'Send Email';
+      alert('Email Sent Succesfulyy Thank you!');
+    }, (err) => {
+      btn.textContent= 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
 
 
