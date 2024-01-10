@@ -1,0 +1,67 @@
+.portfolio {
+  width: 100%;
+  padding: 50px 0;
+}
+.portfolio__container {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.portfolio__text {
+  padding: 30px;
+  text-align: center;
+}
+.portfolio__block-text {
+  line-height: 220%;
+  padding-top: 30px;
+  text-align: center;
+}
+.portfolio__images {
+  width: 200px;
+  height: 200px;
+}
+.portfolio__blockMyWebSites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+.portfolio__blockSites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.portfolio__blockSites span {
+  font-size: 14px;
+  padding: 3px 0;
+}
+.portfolio__buttons {
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+}
+.portfolio__buttons a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 8px 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}

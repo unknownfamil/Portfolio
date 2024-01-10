@@ -1,0 +1,26 @@
+.about {
+  width: 100%;
+  padding: 50px 0;
+}
+.about__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.about__block-aboutHimself {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  line-height: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about__about-text {
+  text-align: center;
+  padding: 30px;
+}

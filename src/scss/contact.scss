@@ -1,0 +1,72 @@
+.contact{
+    width: 100%;
+    &__container{
+        background-color: black;
+        padding: 50px 15px;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__block{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        color: rgb(46, 108, 223);
+        gap: 30px;
+        justify-content: space-around;
+    }
+    &__block-links{
+        line-height: 250%;
+    }
+    &__form{
+        padding: 15px;
+        max-width: 450px;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        button{
+            padding: 8px 0;
+            border: 1px solid rgba(2, 151, 151, 0.5);
+            background: 0;
+            color: rgba(2, 151, 151, 0.5);
+            cursor: pointer;
+            &:hover {
+                border: 1px solid rgb(2, 151, 151);
+                color: rgb(2, 151, 151);
+            }
+        }
+        textarea{
+            resize: vertical;
+            background: 0;
+            border: 1px solid white;
+            color: rgb(2, 151, 151);
+            resize: none;
+            outline: none;
+            border: 1px solid rgb(2, 151, 151);
+            padding: 5px;
+        }
+        input{
+            outline: none;
+            border: none;
+            background: 0;
+            border-bottom: 1px solid rgb(2, 151, 151);
+            color: rgb(2, 151, 151);
+            font-size: 14px;
+            padding-left: 5px;
+            height: 30px;
+            border-radius: 3px;
+            &:focus {
+                background-color: rgba(2, 151, 151, 0.24);
+            }
+        }
+        p{
+            color: rgb(2, 151, 151);
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}

@@ -1,0 +1,24 @@
+.about {
+    width: 100%;
+    padding: 50px 0;
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    &__block-aboutHimself {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        line-height: 2;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    &__about-text {
+        text-align: center;
+        padding: 30px;
+    }
+}

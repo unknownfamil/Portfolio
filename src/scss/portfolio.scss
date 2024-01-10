@@ -1,0 +1,50 @@
+.portfolio{
+    width: 100%;
+    padding: 50px 0;
+    &__container{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__text{
+        padding: 30px;
+        text-align: center;
+    }
+    &__block-text{
+        line-height: 220%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    &__images{
+        width: 200px;
+        height: 200px;
+    }
+    &__blockMyWebSites{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    &__blockSites{
+        display: flex;
+        flex-direction: column;
+        span{
+            font-size: 14px;
+            padding: 3px 0;
+        }
+    }
+    &__buttons{
+        background-color: black;
+        border: none;
+        border-radius: 3px;
+        a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 8px 12px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+    }
+}

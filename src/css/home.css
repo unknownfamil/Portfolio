@@ -1,0 +1,34 @@
+.home {
+  width: 100%;
+  padding: 50px 0;
+}
+.home__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 30px;
+}
+.home__block-titles {
+  padding-top: 90px;
+}
+.home__second-title {
+  font-size: 36px;
+}
+.home__third-title {
+  font-size: 20px;
+  margin: 12px 0;
+}
+.home__fourth-title {
+  color: rgb(70, 70, 70);
+}
+.home__myPhoto {
+  width: 250px;
+  height: 300px;
+  background: url("../img/im.png") no-repeat center/cover;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 1px 1px 10px rgb(255, 255, 255);
+          box-shadow: inset 1px 1px 10px rgb(255, 255, 255);
+}
